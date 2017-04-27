@@ -52,7 +52,7 @@ var app = {
 		var h=document.getElementById('height').value;
 		if(b.length==0||h.length==0)
 			document.getElementById('res').innerHTML="ERROR:Please fill all the fields.";
-		else if(b==0||a==0)
+		else if(b==0||h==0)
 			document.getElementById('res').innerHTML="ERROR:Please enter valid values.";
 		else{
 		var x=parseInt(b);
