@@ -6,7 +6,7 @@
         id        = "com.phonegap.helloworld"
         version   = "1.0.0">
 
-    <name>Ãæ»ý¼ÆËã</name>
+    <name>Area Calculate</name>
 
     <description>
         Hello World sample application that responds to the deviceready event.
