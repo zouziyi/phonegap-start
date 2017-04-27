@@ -51,14 +51,14 @@ var app = {
 		var b=document.getElementById('base').value;
 		var h=document.getElementById('height').value;
 		if(b.length==0||h.length==0)
-			document.getElementById('res').innerHTML="错误：请输入字符";
+			document.getElementById('res').innerHTML="ERROR:Please fill all the fields.";
 		else if(b==0||a==0)
-			document.getElementById('res').innerHTML="错误：请输入合适的长度";
+			document.getElementById('res').innerHTML="ERROR:Please enter valid values.";
 		else{
 		var x=parseInt(b);
 		var y=parseInt(h);
 		var area=0.5*x*y;
-		document.getElementById('res').innerHTML="面积="+area;
+		document.getElementById('res').innerHTML="Area="+area;
 }
 }
 };
